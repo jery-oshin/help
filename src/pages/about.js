@@ -1,9 +1,10 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
 const AboutPage = () => (
     <div>
         <h1>About</h1>
-        <p>this page shows information about the site</p>
+        <p>I am a software developmen</p>
+        <p>may I help you ? <Link to="/contact"> Contact me. </Link></p>
     </div>
 );
 
