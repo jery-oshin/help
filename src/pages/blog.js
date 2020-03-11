@@ -48,9 +48,3 @@ const BlogPage = () =>{
     )
 }
 export default BlogPage
-
-
-/* GOAL: CREATE LINK TO BLOG POSTS 
-    1. Fetch the slug for posts
-    2. Use slug to generate a link to the post page
-*/
