@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Link, graphql, useStaticQuery } from 'gatsby';
-
+//useStaticQuery allows us query our GraphQL API
 import Layout from '../components/layout';
 
 const BlogPage = () =>{
@@ -26,7 +26,7 @@ const BlogPage = () =>{
 
     `)
 
-    console.log(data);
+    //console.log(data);
 
     return(
         <Layout>
