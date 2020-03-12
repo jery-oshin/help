@@ -5,6 +5,7 @@ date: "MAR-11-2020"
 
 We create !
 
+![Gatsby](./gatsby.jpeg)
 
 ### Topics Covered
 
