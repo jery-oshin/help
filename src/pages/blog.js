@@ -42,7 +42,6 @@ const BlogPage = () =>{
                                 <h2>  {edge.node.title}</h2>
                                 <p> {edge.node.publishedDate}</p>
                             </Link>
-                            
                         </li>
                     )
                 })}
