@@ -4,6 +4,9 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 import Layout from '../components/layout.js';
 
+import Head from '../components/head'
+
+
 export const query = graphql`
   query ($slug: String!){
     contentfulBlogPost(slug: {eq: $slug}){
@@ -26,9 +29,10 @@ const Blog = (props) => {
       }
     }
   }
-  
+  console.log(props.data.contentfulBlogPost.title);
   return (
       <Layout>
+          <Head title={props.data.contentfulBlogPost.title} />
           <h1>{props.data.contentfulBlogPost.title}</h1>
           <p>{props.data.contentfulBlogPost.publishedDate}</p>
           {
